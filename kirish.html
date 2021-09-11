@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ro'yxatdan o'tish</title>
+    <link rel="stylesheet" href="./kirish.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="asos" onclick="asos()">
+        <div class="til">
+            <button class="tiltugma" onclick="asosoiytil()" id="asosittil">
+                <img src="./flag-400.png" alt="">
+                <h2>UZ</h2>
+            </button>
+            <div class="tillar" id="tillar">
+                <button class="tilla" onclick="uzbektili()">
+                    <img src="./flag-400.png" alt="">
+                    <h2>Uzbek</h2>
+                </button>
+                <button class="tilla" onclick="rustili()">
+                    <img src="./download.png" alt="">
+                    <h2>Русски</h2>
+                </button>
+                <button class="tilla" onclick="qoraqalpoqtili()">
+                   
+                    <h2> <img src="./flag_rk.png" alt="">Qoraqalpoq</h2>
+                </button>
+            </div>
+        </div>
+        <div class="shaxsiykabinet" id="shaxsiykabinet">
+            <h3>shaxshiy kabinet</h3>
+            <h4>ariza holatini tekshirish</h4>
+            <i class='bx bxl-telegram'>  <a href="">telegram bot orqali tekshirish</a> </i> 
+            <div class="arizaid">
+                <i class='bx bxs-edit-alt'>  arizaning identifikatsiya raqamini kiriting</i>
+            </div>
+            <div class="idkirit" >
+                <div class="idintifikatsiya" id="identifikatsiyaid" onclick="idtekshir()">identifikatsiya raqami</div>
+                <div class="inputid" onclick="idtekshir()">
+                    <input type="namber" onclick="idtekshir()" id="idsoni">
+                    <h6 id="belgi8ta">ha hojiboy chto'tuu</h6>
+                </div>
+            </div>
+            <button>tekshirish</button>
+
+
+        </div>
+        <div class="tgazoboling">
+        <i class='bx bxl-telegram'> <a href="">  telegramdagi sahifamiz orqali yangiliklardan boxabar bo'ling</a></i>
+    </div>
+    </div>
+    
+    
+    <script src="./kirish.js"></script>
+</body>
+</html>

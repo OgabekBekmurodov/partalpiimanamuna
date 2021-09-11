@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 40px;
+    padding: 40px;
+    font-family: sans-serif;
+    
+    
+}
+.maktabga-qabul{
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://portal.piima.uz/images/icons/logo-icon.svg);
+   
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position-y: 250px;
+}
+
+.menudiv{
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+   
+    padding: 10px;
+
+}
+
+.yopiq-tugma{
+   display: none;
+    width: 60px;
+    height: 50px;
+    border: none;
+   
+    text-align: center;
+}
+.yopiq-tugma img{
+   
+    border: none;
+    width: 40px;
+   
+    
+}
+.yopiq-tugma button{
+    
+     border: none;
+
+    
+   
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.yopiq{
+    width: 300px;
+    min-height: 650px;
+    background-color: rgb(30, 137, 236);
+    margin-top: -91px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 4;
+    transition: .4s linear
+    
+
+}
+.yopiq ul{
+    display: block;
+    text-align: center;
+}
+.yopiq ul li{
+    padding: 30px 30px 0 0;
+}
+.logo1{
+    padding: 20px;
+    
+}
+.logo1 img{
+    width: 100px;
+    
+}
+.logo2 img{
+    width: 200px;
+}
+.yopiq .maktablar{
+   
+    position: relative;
+    z-index: 0;
+}
+.yopiq .maktablarga-qabul{
+   
+    position: relative;
+    z-index: 0;
+}
+.yopiq .xizmatlar{
+   
+    position: relative;
+    z-index: 0;
+}
+.yopiq .yangiliklar{
+   
+    position: relative;
+    z-index: 0;
+}
+.yopiq .maktab-hayoti{
+   
+    position: relative;
+    z-index: 0;
+}
+.ochiq-menu{
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+.ochiq-menu-ul{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: black;
+    list-style: none;
+}
+.ochiq-menu ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+}
+.korinish{
+    width: 50px;
+    height: 50px;
+}
+.korinish button{
+    border: none;
+    background:transparent;
+}
+.korinish button i{
+    font-size: 40px;
+   
+}
+.korinishlar{
+    display: none;
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    z-index: 1;
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    
+  
+right: 1%;
+    
+    
+    
+   
+
+}
+.active{
+    display: block;
+}
+.korinishlar button{
+    width: 30%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+  
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.korinish1 i{
+    color: blue;
+    text-shadow: 2px 2px blue;
+    
+}
+.korinish1 p{
+    font-size: 12px;
+    color: blue;
+    text-shadow: none;
+    text-transform: uppercase;
+
+    
+}
+.korinish2 i{
+    color: rgb(126, 126, 129);
+    text-shadow: 2px 2px rgb(126, 126, 129);
+    
+    
+}
+.korinish2 p{
+    font-size: 12px;
+    color: rgb(126, 126, 129);
+    text-shadow: none;
+    text-transform: uppercase;
+
+    
+    
+}
+
+.korinish3 i{
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px rgb(5, 5, 5);
+    
+    
+}
+.korinish3 p{
+    font-size: 12px;
+    color:black;
+    text-shadow: none;
+    text-transform: uppercase;
+
+    
+    
+}
+.maktablar{
+    min-width: 200px;
+    min-height: 10px;
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    justify-content:unset;
+    border-radius: 6px;
+}
+.active{
+    display: block;
+}
+.maktablar ul{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding:0 5px;
+   
+}
+.maktablar ul li:hover{
+    background-color: teal;
+    border-radius: 4px;
+}
+.maktablarga-qabul{
+    min-width: 200px;
+    min-height: 10px;
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    justify-content:unset;
+    border-radius: 6px;
+}
+.active{
+    display: block;
+}
+.maktablarga-qabul ul{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   
+}
+.maktablarga-qabul ul li:hover{
+    background-color: teal;
+    border-radius: 4px;
+}
+.xizmatlar{
+    min-width: 200px;
+    min-height: 10px;
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    justify-content:unset;
+    border-radius: 6px;
+}
+.active{
+    display: block;
+}
+.xizmatlar ul{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   
+}
+.xizmatlar ul li:hover{
+    background-color: teal;
+    border-radius: 4px;
+}
+.yangiliklar{
+    min-width: 200px;
+    min-height: 10px;
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    justify-content:unset;
+    border-radius: 6px;
+}
+.active{
+    display: block;
+}
+.yangiliklar ul{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   
+}
+.yangiliklar ul li:hover{
+    background-color: teal;
+    border-radius: 4px;
+}
+.maktab-hayoti{
+    min-width: 200px;
+    min-height: 10px;
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    justify-content:unset;
+    border-radius: 6px;
+}
+.active{
+    display: block;
+}
+.maktab-hayoti ul{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   
+}
+.maktab-hayoti ul li:hover{
+    background-color: teal;
+    border-radius: 4px;
+}
+.makbabga-qabul-qilish-rasmlar{
+    width: 100%;
+    height: 500px;
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.maktabga-qabul-qilish{
+    width: 40%;
+    height: 450px;
+    float:left;
+    background-color: rgb(204, 198, 198);
+    margin-top: 25px;
+    margin-left: 50px;
+    
+    text-transform: uppercase;
+    text-align: left;
+
+}
+.maktabga-qabul-qilish h1{
+    font-size: 30px;
+    padding: 20px;
+  
+}
+.maktabga-qabul-qilish h3{
+    font-size: 30px;
+    padding: 20px;
+   font-family: monospace;}
+
+.rasmlar{
+    width: 50%;
+    height: 350px;
+   background-color: rgb(157, 252, 173);
+    position:absolute;
+   left: 41%;
+   top: 170px;
+    
+}
+.rasmlar img{
+    width: 600px;
+    height:350px;
+}
+.maktabga-qabul-qilish a{
+    
+    text-transform: uppercase;
+    background-color: rgb(56, 122, 209);
+    border: none;
+    padding: 20px 40px;
+    
+    text-decoration: none;
+    color: wheat;
+    margin-left: 40px;
+    margin-top: 1050px;
+    transition: .3s linear;
+}
+.maktabga-qabul-qilish a:hover{
+    background-color: teal;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.logo22{
+    display: none;
+    width: 70%;
+}
+.logo22 .l1{
+    float: left;
+}
+.orqavideo video{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1050px) {
+    .yopiq-tugma{
+        display: block;
+    }
+    .ochiq-menu{
+        display: none;
+    }
+    .ochiq-menu.yopiq{
+        display: block;
+        left:-300px;
+    }
+    .ochiq-menu.yopiiq{
+        display: block;
+    }
+   
+    .logo22{
+        display: block;
+        color: aqua;
+        
+    }
+    .logo{
+        display: none;
+    }
+    .maktabga-qabul-qilish{
+       width: 100%;
+      margin-left: 0px;
+      height: 300px;
+
+        
+        
+    }
+    .rasmlar{
+        margin-top: -150px;
+    }
+    .maktabga-qabul-qilish a{
+        left: 0;
+       
+    }
+    .rasmlar{
+        left: 5%;
+        width: 90%;
+        top: 600px;
+        
+    }
+   
+}
+
+@media screen and (max-width:700px){
+    .rasmlar{
+        height: 250px;
+    }
+    .rasmlar img{
+        height: 250px;
+    }
+    .korinish{
+        display: none;
+    }
+    .maktabga-qabul-qilish{
+        margin-top: 0;
+    }
+ .logo22 .l1 img{
+     width:60px ;
+     
+ }
+ .logo22 .l1{
+     float: left;
+     margin-left: -40px;
+     margin-top: -10px;
+ }
+ .logo22 .l2 img{
+     width: 200px;
+ }
+ .maktabga-qabul-qilish{
+     height: 380px;
+ }
+ .rasmlar{
+     margin-top: -120px;
+ }
+
+}
+
+

@@ -1,0 +1,66 @@
+.wors{
+    width: 100%;
+    height: 70vh;
+    background: url(./5199639-download-wave-png-clipart-465-free-transparent-png-images-icons-wavepng-1000_402.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+.work{
+    width:400px;
+    height: 350px;
+    float: left;
+  padding: 20px;
+    margin-left: 10px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .9s linear;
+    
+    
+}
+.work img{
+    width: 100%;
+    height: 100%;
+}
+.info img{
+    width: 100px;
+    height: 110px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.info{
+  position: relative;
+  background-color: #424b4abc;
+  backdrop-filter: blur(0px);
+  z-index: 2;
+  top: -230px;
+  text-align: center;
+  text-transform: uppercase;
+  color: gold;
+  height: 190px;
+  transition: .6s linear;
+}
+.work:hover .info{
+top: -20px;
+height: 20px;
+background-color: rgb(19, 90, 90);
+}
+.work:hover .info img{
+  height: 0;
+
+}
+@media  screen and (max-width:900px) {
+    .work{
+        width: 100%; margin-left: 10px;
+       
+    }
+    .wors{
+        background: none;
+        height: 200vh;
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,318 @@
+.maktabgaqabul{
+    width: 100%;
+    height: 70vh;
+
+}
+.qabulqilish-tartibi{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+   cursor: pointer;
+}
+.qabulqilish-tartibi img{
+    width: 100%;
+    height: 100%;
+}
+.qorafont{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 5;
+    background-color: #424b4abc;
+    top: -90%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .5s linear;
+    
+}
+.qorafont h4{
+    padding-top: 50px;
+}
+.qabulqilish-tartibi:hover .qorafont{
+    width: 100%;
+    margin-left: 0;
+    height: 100%;
+    top: -100%;
+}
+.rasmmm img,.rasmmm i{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+}
+.togarak{
+    width: 33%;
+    height: 70%;
+}
+.qoshimchamalumot{
+    background: url(https://portal.piima.uz/images/icons/logo-icon.svg);
+    background-size: 650px;
+    background-repeat: no-repeat;
+    
+
+}
+.bizningfaxrimiz{
+    width: 100%;
+    height: 70vh;
+    
+}
+.oquvchilar{
+    width: 25%;
+    height: 70vh;
+    float: left;
+    padding: 20px;
+   
+    text-align: center;
+    transition: .4s linear;
+}
+.oquvchilar:hover.oquvchilar img{
+    width: 200px;
+    height: 200px;
+}
+.oquvchilar:hover{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.oquvchilar h2{
+    font-size: 30px;
+}
+.oquvchilar h4{
+    font-size: 20px;
+}
+.oquvchilar img{
+    transition: .4s linear;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+.video{
+    width: 100%;
+    height: 70vh;
+}
+.video h2,.bizningfaxrimiz h3{
+    font-size: 60px;
+    font-family: initial;
+}
+.video1{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    float: left;
+}
+.video1 video{
+width: 100%;
+height: 100%;    
+border-radius: 20px;
+}
+.orqavideo video{
+    border-radius: 30px;
+}
+.oxiri{
+    width: 1005;
+    height: 100vh;
+    position:relative;
+    z-index: 3;
+    margin-top: -110vh;
+}
+.xizmattlar{
+    width: 30%;
+    height: 400px;
+ /*background-color: #707777bc;*/
+    float: left;
+    
+    border-radius: 10px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    filter: blur(-10px);
+    margin: 15px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    background: linear-gradient(300deg,#ffffffbc,#000000bc);
+    
+}
+.xizmattlar img{
+    width: 80%;
+    left: 0;
+}
+.xizmattlar h4{
+    padding: 30px;
+}
+.aloqa{
+    text-align: left;
+
+}
+.aloqa i,.ishonch i{
+    font-size: 22px;
+    padding: 15px;
+}
+.ishonch{
+    text-align: left;
+}
+.telefonnibaholash{
+    background-color: turquoise;
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    
+    justify-content: center;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    transition: .4s linear;
+}
+.telefonnibaholash p,.obunabolish p{
+    padding-top: 8px;
+    transition: .4s linear;
+}
+.savolyollash{
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 8px;
+
+   width: 70%;
+   height: 40px;
+    background-color: violet;
+}
+.savolyollash a{
+    text-decoration:none;
+}
+.ishonch input{
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.obunabolish{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(104, 109, 109);
+    margin-top: -40px;
+    position: relative;
+    z-index: 3;
+    margin-left: 55%;
+    color: white;
+    cursor: pointer;
+}
+.telefonnibaholash:hover{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+
+}
+.telefonnibaholash:hover.telefonnibaholash p{
+    padding-top: 12px;
+}
+.ichtimoiy{
+    width: 80%;
+    height: 100px;
+    background: linear-gradient(300deg,#ffffffbc,#000000bc);
+    
+    margin-top: 70vh;
+    margin-left: 10%;
+    font-size: 30px;
+}
+.ichtimoiy  ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+    padding: 20px 80px;
+   
+}
+.ichtimoiy ul li a{
+    
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .oquvchilar{
+     float: none;
+     
+     
+     width: 100%;
+     min-height: 100px;
+    
+    }
+    .ichtimoiy  ul li{
+        padding: 0px 80px;
+    }
+    .video{
+        margin-top: 1350px;
+    }
+    .video1{
+        width: 100%;
+        float: none;
+    }
+    .oquvchilar:hover{
+       height: 300px;
+    }
+    
+    .bizningfaxrimiz{
+        margin-top: 560px;
+        
+        
+       
+       
+    }
+    .qabulqilish-tartibi{
+        float: none;
+        width: 100%;
+        height: 70%;
+    }
+    .qoshimchamalumot{
+        margin-top: 440px;
+      
+
+    }
+    .rasmmm h4{
+        
+        color: black;
+
+        
+        
+    }
+    .rasmmm img{
+        padding-bottom: 0;
+    }
+    .maktabgaqabul{
+        margin-top: -150px;
+        
+    }
+    .qorafont h4{
+        padding-top: 100px;
+    }
+    .xizmattlar{
+        float: none;
+        width: 100%;
+    }
+    .orqavideo{
+     background-color: royalblue;
+    }
+    .orqavideo video{
+        display: none;
+    }
+    .oxiri{
+        margin-top: 560px;
+    }
+    .ichtimoiy{
+        margin-top: 0;
+        font-size: 20px;
+        width: 100%;
+        margin-left: 0px;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
+    
+    
+}

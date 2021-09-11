@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+rel="stylesheet"
+/>
+  <link rel="stylesheet" href="./partalpima.css">
+  <link rel="stylesheet" href="./maktablar.css">
+  <link rel="stylesheet" href="./maktabga-qabul.css">
+  <link rel="stylesheet" href="./prezidentmaktabi.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+  <title>Prezident maktabi</title>
+</head>
+
+<body>
+  <div onclick="yopiqmenuniyopish()" id="yopiqmenuniyopish"
+    style="display: none;transition:.3s linear; cursor: pointer;  width: 100%; min-height: 200vh; background-color: #5c7e8dcc; position: absolute; z-index:2; left: 0; top: 0;">
+
+  </div>
+  <section class="maktabga-qabul">
+    <div class="menudiv">
+
+      <div class="yopiq-tugma">
+        <button onclick="ochishyopish()">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAATElEQVRIS2NkoDFgpLH5DKMWEAzhAQmi/wSdhV8BiqOx+YDmFlDoAVTtAxIHNPcBzeOA5hbQPIiGvgU0jwOaWzD042DUByghQPPSFABt6AYZfO/+XQAAAABJRU5ErkJggg==" />
+        </button>
+        <div class="ochiq-menu yopiq" id="ochiq-menu-yopiq">
+          <div class="logo1"><img src="https://portal.piima.uz/images/icons/logo-icon.svg" alt=""></div>
+          <div class="logo2"><img src="https://portal.piima.uz/images/icons/logo-name.svg" alt=""></div>
+          <div class="ochiq-menu yopiiq">
+            <ul class="ochiq-menu-ul">
+              <li><a href="#" onclick="maktablar()">maktablar</a>
+                <div class="maktablar" id="maktablar">
+                  <ul>
+                    <li><a href="#">prezident maktablari</a></li>
+                    <li><a href="#">ijod maktablari</a></li>
+                    <li><a href="#">ixtisoslashtirilgan maktablari</a></li>
+
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" onclick="maktablargaqabul()">maktabga qabul</a>
+                <div class="maktablarga-qabul" id="maktablarga-qabul">
+                  <ul>
+                    <li><a href="#">maktablarga qabish qilish tartibi</a></li>
+                    <li><a href="#">test namunalari</a></li>
+                    <li><a href="#">video qo'llanma</a></li>
+                    <li><a href="#">hujjat namunalari</a></li>
+                    <li><a href="#">online ariza yuborish</a></li>
+
+
+
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" onclick="xizmatlar()">xizmatlar</a>
+                <div class="xizmatlar" id="xizmatlar">
+                  <ul>
+                    <li><a href="#">bo'sh ish o'rinlari</a></li>
+
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" onclick="yangiliklar()">yangiliklar</a>
+                <div class="yangiliklar" id="yangiliklar">
+                  <ul>
+                    <li><a href="#">yangiliklar</a></li>
+                    <li><a href="#">oav markazi</a></li>
+
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" onclick="maktabhayoti()">maktab hayoti </a>
+                <div class="maktab-hayoti" id="maktab-hayoti">
+                  <ul>
+                    <li><a href="#">foto video galareya</a></li>
+                    <li><a href="#">maktabimiz faollari</a></li>
+                    <li><a href="#">sport hayotmizada</a></li>
+                    <li><a href="#">maktab yutuqlari</a></li>
+
+
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">qayta aloqa</a></li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="logo" onclick="tana()">
+        <img src="https://portal.piima.uz/images/icons/logo-icon.svg" alt="">
+      </div>
+      <div class="ochiq-menu">
+        <ul class="ochiq-menu-ul">
+          <li><a href="#" onclick="maktablar()">maktablar</a>
+            <div class="maktablar" id="maktablar">
+              <ul>
+                <li><a href="#">prezident maktablari</a></li>
+                <li><a href="#">ijod maktablari</a></li>
+                <li><a href="#">ixtisoslashtirilgan maktablari</a></li>
+
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" onclick="maktablargaqabul()">maktabga qabul</a>
+            <div class="maktablarga-qabul" id="maktablarga-qabul">
+              <ul>
+                <li><a href="#">maktablarga qabish qilish tartibi</a></li>
+                <li><a href="#">test namunalari</a></li>
+                <li><a href="#">video qo'llanma</a></li>
+                <li><a href="#">hujjat namunalari</a></li>
+                <li><a href="#">online ariza yuborish</a></li>
+
+
+
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" onclick="xizmatlar()">xizmatlar</a>
+            <div class="xizmatlar" id="xizmatlar">
+              <ul>
+                <li><a href="#">bo'sh ish o'rinlari</a></li>
+
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" onclick="yangiliklar()">yangiliklar</a>
+            <div class="yangiliklar" id="yangiliklar">
+              <ul>
+                <li><a href="#">yangiliklar</a></li>
+                <li><a href="#">oav markazi</a></li>
+
+              </ul>
+            </div>
+          </li>
+          <li><a href="#" onclick="maktabhayoti()">maktab hayoti </a>
+            <div class="maktab-hayoti" id="maktab-hayoti">
+              <ul>
+                <li><a href="#">foto video galareya</a></li>
+                <li><a href="#">maktabimiz faollari</a></li>
+                <li><a href="#">sport hayotmizada</a></li>
+                <li><a href="#">maktab yutuqlari</a></li>
+
+
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">qayta aloqa</a></li>
+
+        </ul>
+
+      </div>
+      <div class="logo22">
+        <div class="l1">
+          <img src="https://portal.piima.uz/images/icons/logo-icon.svg" alt="">
+
+        </div>
+        <div class="l2">
+          <img src="https://portal.piima.uz/images/icons/logo-name.svg" alt="">
+
+        </div>
+      </div>
+      <div class="korinish" onclick="tana()">
+        <button onclick="korinish()"><i class='bx bxs-show'></i></button>
+        <div class="korinishlar" id="korinishlar">
+          <h3>ko'rinish</h3>
+          <button class="korinish1"><i class='bx bx-heart'><br>
+              <p>ko'k</p>
+            </i></button>
+          <button class="korinish2"><i class='bx bx-heart'><br>
+              <p>kulran</p>
+            </i></button>
+          <button class="korinish3"><i class='bx bx-heart'><br>
+              <p>qora</p>
+            </i></button>
+          <h3>kattalashtirish</h3>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="kabinetprimaktab">
+
+    </div>
+    <div class="kabinetprimaktab oldfont">
+      <div
+        style="margin:10px 20px; border-bottom:3px solid white; width: 190px;padding-top: 20px;padding-bottom: 20px; font-size: 20px ; color: white;">
+        Prezident maktablati
+      </div>
+      <a href="./index.html"
+        style="text-decoration: none; color: white; font-size: 20px; padding-left: 30px; float: left;">Bosh sahifa </a>
+      <a style="font-size: 20px; text-decoration: none; color: white;padding-left: 10px;">> Prezident maktabi</a>
+
+    </div>
+    <div class="viloyatdagiprimaktablar">
+      <div class="toshkentprimaktab">
+        <div class="toshprirasm"><img src="https://piima.uz/userfiles/images/schools/601901bf357cf.png" alt="">
+        </div>
+        <div class="toshtafsilot">
+          <p>Toshkent shahridagi prezident maktabi</p>
+          <p>sana back end ishi</p>
+          <a href="#">batafsil</a>
+        </div>
+      </div>
+      <div class="toshkentprimaktab">
+        <div class="toshprirasm"><img src="https://piima.uz/userfiles/images/schools/601901bf357cf.png" alt="">
+        </div>
+        <div class="toshtafsilot">
+          <p>Toshkent shahridagi prezident maktabi</p>
+          <p>sana back end ishi</p>
+          <a href="#">batafsil</a>
+        </div>
+      </div>
+      <div class="toshkentprimaktab">
+        <div class="toshprirasm"><img src="https://piima.uz/userfiles/images/schools/601901bf357cf.png" alt="">
+        </div>
+        <div class="toshtafsilot">
+          <p>Toshkent shahridagi prezident maktabi</p>
+          <p>sana back end ishi</p>
+          <a href="#">batafsil</a>
+        </div>
+      </div>
+      <div class="toshkentprimaktab">
+        <div class="toshprirasm"><img src="https://piima.uz/userfiles/images/schools/601901bf357cf.png" alt="">
+        </div>
+        <div class="toshtafsilot">
+          <p>Toshkent shahridagi prezident maktabi</p>
+          <p>sana back end ishi</p>
+          <a href="#">batafsil</a>
+        </div>
+      </div>
+
+
+
+
+
+    <section>
+
+      <div class="orqavideo">
+        <video src="Grey 3d Flourish-H264 75.mov" controls style="border-radius: 0;"></video>
+      </div>
+      <div class="oxiri">
+        <div class="rasmlari">
+          <img src="https://portal.piima.uz/images/footer-logo.svg" alt="">
+        </div>
+        <div class="xizmattlar">
+          <h4>YUKLAB OLING</h4>
+          <img src="./ios-appstore.png" alt="">
+          <img src="./en_badge_web_generic.png" alt="">
+
+        </div>
+        <div class="xizmattlar aloqa">
+          <h4>ALOQA MA'LUMOTLARI</h4>
+          <h6>Maktablarga qabul bo'yicha call markazi</h6>
+          <i class='bx bx-phone'> +998 (99) 385-77-59</i><br>
+          <i class='bx bx-phone'>1206</i><br>
+          <i class='bx bx-conversation'>bekmurodovogabek2@gmail.com</i><br>
+          <i class='bx bx-location-plus'>100170 Toshkent shahri Do'rmon yo'li 34-uy</i>
+
+
+        </div>
+        <div class="xizmattlar ishonch">
+          <h4>ISHONCH TELEFONI</h4>
+          <i class='bx bx-phone'> +998 (99) 385-77-59</i><br>
+          <div class="telefonnibaholash">
+            <p id="telefonnibaholash">ISHONCH TELEFONINI BAHOLASH</p>
+
+          </div>
+          <div class="savolyollash">
+            <a href="#">Savol yo'llash</a>
+
+          </div>
+          <input type="gmail" placeholder="Pochtangizni kiriting">
+
+          <a href="#">
+            <div class="obunabolish">
+              <p>Obunaa bo'lish</p>
+            </div>
+          </a>
+
+        </div>
+        <div class="ichtimoiy">
+          <ul>
+            <li><a href="#" style="color: rgb(2, 49, 255);" class="fa fa-facebook"> Facebook</a> </li>
+            <li><a href="#" style="color: rgb(2, 238, 255);" class="fa fa-telegram">Telegram</a> </li>
+            <li><a href="#" style="color: rgb(212, 0, 0);" class="fa fa-youtube">You-Tube</a> </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  </section>
+  <script src="./partalpima.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

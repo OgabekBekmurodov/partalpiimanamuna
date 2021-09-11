@@ -1,0 +1,124 @@
+.toshprimak h1{
+  padding: 80px 50px 0 10px ;
+  font-size: 50px;
+  
+}
+.kabinetprimaktab{
+  width: 100%;
+  height: 200px;
+  background:url(./b7b9e4b7abeb484190eb6446577c17f8.png) ;
+  background-position-y: center;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+.oldfont{
+  background: linear-gradient(90deg,rgb(0, 20, 85),rgb(0, 20, 85),transparent);
+  position: relative;
+  z-index: 1;
+  margin-top: -220px;
+}
+.viloyatdagiprimaktablar{
+  width: 100%;
+  min-height: 50vh;
+
+}
+.toshkentprimaktab{
+  width: 40%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 5px 5px rgb(85, 82, 82);
+  float: left;
+  margin: 50px;
+}
+.toshprirasm{
+  width: 50%;
+  float: left;
+background: transparent;
+}
+.toshprirasm img{
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 20px;
+  
+}
+.toshtafsilot{
+  
+  text-align: center;
+}
+.toshtafsilot p:nth-child(1){
+  padding-top: 40px;
+}
+.toshtafsilot p{
+  font-size: 18px;
+}
+.toshtafsilot p:nth-child(2){
+  padding-bottom: 40px;
+}
+.toshtafsilot a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background-color: khaki;
+  transition: .3s linear;
+}
+.toshtafsilot a:hover{
+  background-color: rgb(0, 226, 0);
+}
+.barabandiv{
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  margin-top: 450px;
+  
+}
+.barabandivdiv{
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position:relative;
+  z-index: 2;
+  background-color: brown;
+
+}
+.sharoit1,.sharoit3,.sharoit2{
+  float: left;
+  width: 30%;
+  background-color: azure;
+  text-align: center;
+  margin-left: -40px;
+  position: absolute;
+  z-index: 1;
+}
+.ongga,.chapga{
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  border: none;
+ 
+}
+.ongga button,.chapga button{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+padding: 5px;
+
+}
+
+
+@media screen and (max-width:900px){
+  .toshkentprimaktab{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+}
